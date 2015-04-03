@@ -1,0 +1,250 @@
+{
+    "1": {
+        "iso_3166_2": "AL",
+        "name": "Alabama"
+    },
+    "2": {
+        "iso_3166_2": "AK",
+        "name": "Alaska"
+    },
+    "3": {
+        "iso_3166_2": "AS",
+        "name": "American Samoa"
+    },
+    "4": {
+        "iso_3166_2": "AZ",
+        "name": "Arizona"
+    },
+    "5": {
+        "iso_3166_2": "AR",
+        "name": "Arkansas"
+    },
+    "6": {
+        "iso_3166_2": "CA",
+        "name": "California"
+    },
+    "7": {
+        "iso_3166_2": "CO",
+        "name": "Colorado"
+    },
+    "8": {
+        "iso_3166_2": "CT",
+        "name": "Connecticut"
+    },
+    "9": {
+        "iso_3166_2": "DE",
+        "name": "Delaware"
+    },
+    "10": {
+        "iso_3166_2": "DC",
+        "name": "District of Columbia"
+    },
+    "11": {
+        "iso_3166_2": "FM",
+        "name": "Federated States of Micronesia"
+    },
+    "12": {
+        "iso_3166_2": "FL",
+        "name": "Florida"
+    },
+    "13": {
+        "iso_3166_2": "GA",
+        "name": "Georgia"
+    },
+    "14": {
+        "iso_3166_2": "GU",
+        "name": "Guam"
+    },
+    "15": {
+        "iso_3166_2": "HI",
+        "name": "Hawaii"
+    },
+    "16": {
+        "iso_3166_2": "ID",
+        "name": "Idaho"
+    },
+    "17": {
+        "iso_3166_2": "IL",
+        "name": "Illinois"
+    },
+    "18": {
+        "iso_3166_2": "IN",
+        "name": "Indiana"
+    },
+    "19": {
+        "iso_3166_2": "IA",
+        "name": "Iowa"
+    },
+    "20": {
+        "iso_3166_2": "KS",
+        "name": "Kansas"
+    },
+    "21": {
+        "iso_3166_2": "KY",
+        "name": "Kentucky"
+    },
+    "22": {
+        "iso_3166_2": "LA",
+        "name": "Louisiana"
+    },
+    "23": {
+        "iso_3166_2": "ME",
+        "name": "Maine"
+    },
+    "24": {
+        "iso_3166_2": "MH",
+        "name": "Marshall Islands"
+    },
+    "25": {
+        "iso_3166_2": "MD",
+        "name": "Maryland"
+    },
+    "26": {
+        "iso_3166_2": "MA",
+        "name": "Massachusetts"
+    },
+    "27": {
+        "iso_3166_2": "MI",
+        "name": "Michigan"
+    },
+    "28": {
+        "iso_3166_2": "MN",
+        "name": "Minnesota"
+    },
+    "29": {
+        "iso_3166_2": "MS",
+        "name": "Mississippi"
+    },
+    "30": {
+        "iso_3166_2": "MO",
+        "name": "Missouri"
+    },
+    "31": {
+        "iso_3166_2": "MT",
+        "name": "Montana"
+    },
+    "32": {
+        "iso_3166_2": "NE",
+        "name": "Nebraska"
+    },
+    "33": {
+        "iso_3166_2": "NV",
+        "name": "Nevada"
+    },
+    "34": {
+        "iso_3166_2": "NH",
+        "name": "New Hampshire"
+    },
+    "35": {
+        "iso_3166_2": "NJ",
+        "name": "New Jersey"
+    },
+    "36": {
+        "iso_3166_2": "NM",
+        "name": "New Mexico"
+    },
+    "37": {
+        "iso_3166_2": "NY",
+        "name": "New York"
+    },
+    "38": {
+        "iso_3166_2": "NC",
+        "name": "North Carolina"
+    },
+    "39": {
+        "iso_3166_2": "ND",
+        "name": "North Dakota"
+    },
+    "40": {
+        "iso_3166_2": "MP",
+        "name": "Northern Mariana Islands"
+    },
+    "41": {
+        "iso_3166_2": "OH",
+        "name": "Ohio"
+    },
+    "42": {
+        "iso_3166_2": "OK",
+        "name": "Oklahoma"
+    },
+    "43": {
+        "iso_3166_2": "OR",
+        "name": "Oregon"
+    },
+    "44": {
+        "iso_3166_2": "PW",
+        "name": "Palau"
+    },
+    "45": {
+        "iso_3166_2": "PA",
+        "name": "Pennsylvania"
+    },
+    "46": {
+        "iso_3166_2": "PR",
+        "name": "Puerto Rico"
+    },
+    "47": {
+        "iso_3166_2": "RI",
+        "name": "Rhode Island"
+    },
+    "48": {
+        "iso_3166_2": "SC",
+        "name": "South Carolina"
+    },
+    "49": {
+        "iso_3166_2": "SD",
+        "name": "South Dakota"
+    },
+    "50": {
+        "iso_3166_2": "TN",
+        "name": "Tennessee"
+    },
+    "51": {
+        "iso_3166_2": "TX",
+        "name": "Texas"
+    },
+    "52": {
+        "iso_3166_2": "UT",
+        "name": "Utah"
+    },
+    "53": {
+        "iso_3166_2": "VT",
+        "name": "Vermont"
+    },
+    "54": {
+        "iso_3166_2": "VI",
+        "name": "Virgin Islands"
+    },
+    "55": {
+        "iso_3166_2": "VA",
+        "name": "Virginia"
+    },
+    "56": {
+        "iso_3166_2": "WA",
+        "name": "Washington"
+    },
+    "57": {
+        "iso_3166_2": "WV",
+        "name": "West Virginia"
+    },
+    "58": {
+        "iso_3166_2": "WI",
+        "name": "Wisconsin"
+    },
+    "59": {
+        "iso_3166_2": "WY",
+        "name": "Wyoming"
+    },
+    "60": {
+        "iso_3166_2": "AE",
+        "name": "Armed Forces Europe, the Middle East, and Canada"
+    },
+    "61": {
+        "iso_3166_2": "AP",
+        "name": "Armed Forces Pacific"
+    },
+    "62": {
+        "iso_3166_2": "AA",
+        "name": "Armed Forces Americas (except Canada)"
+    }
+}

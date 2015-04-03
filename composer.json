@@ -1,0 +1,39 @@
+{
+	"name" : "adrianmejias/laravel-states",
+	"description" : "Laravel States is a bundle for Laravel, providing abbreviation and name for all USA States.",
+	"type" : "laravel-library",
+	"authors" : [{
+			"name" : "Adrian Mejias",
+			"email" : "adrianmejias@gmail.com",
+			"homepage" : "https://adrianmejias.com",
+			"role" : "developer"
+		}
+	],
+	"keywords" : [
+		"laravel",
+		"states",
+		"us states",
+		"united states",
+		"usa"
+	],
+	"homepage" : "https://github.com/adrianmejias/laravel-states",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"AdrianMejias\\States" : "src/"
+		},
+		"classmap" : [
+			"src/commands"
+		]
+	},
+	"minimum-stability" : "dev",
+	"support" : {
+		"source" : "https://github.com/adrianmejias/laravel-states",
+		"issues" : "https://github.com/adrianmejias/laravel-states/issues"
+	}
+}
