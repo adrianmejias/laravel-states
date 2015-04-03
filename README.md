@@ -45,4 +45,4 @@ You may now run it with the artisan migrate command:
 
     $ php artisan migrate --seed
     
-After running this command the filled countries table will be available
+After running this command the filled states table will be available
