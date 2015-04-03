@@ -28,7 +28,7 @@ class StatesServiceProvider extends ServiceProvider {
         // The publication files to publish
         $this->publishes([__DIR__ . '/../../config/config.php' => config_path('states.php')]);
 
-        // Append the country settings
+        // Append the state settings
         $this->mergeConfigFrom(
             __DIR__ . '/../../config/config.php', 'states'
         );
@@ -54,7 +54,7 @@ class StatesServiceProvider extends ServiceProvider {
      *
      * @return void
      */
-    public function registerCountries()
+    public function registerStates()
     {
         $this->app->bind('states', function($app)
         {

@@ -50,7 +50,7 @@ class MigrationCommand extends Command {
             $this->line('');
 
             $this->info( "Creating migration and seeder..." );
-            if( $this->createMigration( 'countries' ) )
+            if( $this->createMigration( 'states' ) )
             {
                 $this->line('');
                 
