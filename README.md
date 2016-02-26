@@ -36,7 +36,7 @@ You can start by publishing the configuration. This is an optional step, it cont
 Next generate the migration file:
 
     $ php artisan states:migration
-    
+    $ composer dump-autoload
 It will generate the `<timestamp>_setup_states_table.php` migration and the `StatesSeeder.php` seeder. To make sure the data is seeded insert the following code in the `seeds/DatabaseSeeder.php`
 
     $this->call(StatesSeeder::class);
