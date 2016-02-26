@@ -7,9 +7,10 @@ use Illuminate\Support\ServiceProvider;
 /**
  * StatesServiceProvider
  *
- */ 
+ */
 
-class StatesServiceProvider extends ServiceProvider {
+class StatesServiceProvider extends ServiceProvider
+{
 
     /**
      * Indicates if loading of the provider is deferred.
@@ -29,13 +30,7 @@ class StatesServiceProvider extends ServiceProvider {
         $this->publishes([__DIR__ . '/../../config/config.php' => config_path('states.php')]);
 
         // Append the state settings
-        $this->mergeConfigFrom(
-            __DIR__ . '/../../config/config.php', 'states'
-        );
-        /*$this->app['config']['database.connections'] = array_merge(
-            $this->app['config']['database.connections'],
-            \Config::get('career.library.database.connections')
-        );*/
+        $this->mergeConfigFrom(__DIR__ . '/../../config/config.php', 'states');
     }
         
     /**
@@ -56,8 +51,8 @@ class StatesServiceProvider extends ServiceProvider {
      */
     public function registerStates()
     {
-        $this->app->bind('states', function($app)
-        {
+        $this->app->bind('states', function ($app) {
+        
             return new States();
         });
     }
@@ -69,8 +64,8 @@ class StatesServiceProvider extends ServiceProvider {
      */
     protected function registerCommands()
     {
-        $this->app['command.states.migration'] = $this->app->share(function($app)
-        {
+        $this->app['command.states.migration'] = $this->app->share(function ($app) {
+        
             return new MigrationCommand($app);
         });
 
@@ -84,6 +79,6 @@ class StatesServiceProvider extends ServiceProvider {
      */
     public function provides()
     {
-        return array('states');
+        return ['states'];
     }
 }

@@ -19,6 +19,7 @@ class StatesSeeder extends Seeder {
                 'id' => $stateId,
                 'iso_3166_2' => $state['iso_3166_2'],
                 'name' => $state['name'],
+                'country_code' => $state['country_code'],
             ));
         }
     }
