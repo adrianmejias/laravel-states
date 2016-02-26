@@ -37,6 +37,7 @@ Next generate the migration file:
 
     $ php artisan states:migration
     $ composer dump-autoload
+
 It will generate the `<timestamp>_setup_states_table.php` migration and the `StatesSeeder.php` seeder. To make sure the data is seeded insert the following code in the `seeds/DatabaseSeeder.php`
 
     $this->call(StatesSeeder::class);
@@ -45,4 +46,20 @@ You may now run it with the artisan migrate command:
 
     $ php artisan migrate --seed
     
-After running this command the filled states table will be available
+
+After running this command the filled states table will be available.
+
+## Example
+
+Example blade formatting:
+
+    @foreach(States::whereCountryCode('US')->get() as $state)
+        {{ $state->name }} {{ $state->country_code }}<br>
+    @endforeach
+
+Should result in:
+
+    Alabama<br>
+    Arkansas<br>
+    Arizona<br>
+    ...
