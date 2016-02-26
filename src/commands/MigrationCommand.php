@@ -92,7 +92,8 @@ class MigrationCommand extends Command
         $app = app();
         $migrationFiles = [
             $this->laravel->path."/../database/migrations/*_setup_states_table.php" => 'states::generators.migration',
-            $this->laravel->path."/../database/migrations/*_charify_states_table.php" => 'states::generators.char_migration'
+            $this->laravel->path."/../database/migrations/*_charify_states_table.php" => 'states::generators.char_migration',
+            $this->laravel->path."/../database/migrations/*_codify_states_table.php" => 'states::generators.code_migration'
         ];
 
         $seconds = 0;
