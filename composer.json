@@ -1,6 +1,6 @@
 {
     "name": "adrianmejias/laravel-states",
-    "description": "Laravel States is a bundle for Laravel, providing abbreviation and name for all USA States.",
+    "description": "Laravel States is a bundle for Laravel, providing abbreviation, name and country code for US states.",
     "type": "laravel-library",
     "authors": [{
         "name": "Adrian Mejias",

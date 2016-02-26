@@ -1,250 +1,312 @@
 {
     "1": {
         "iso_3166_2": "AL",
-        "name": "Alabama"
+        "name": "Alabama",
+        "country_code": "US"
     },
     "2": {
         "iso_3166_2": "AK",
-        "name": "Alaska"
+        "name": "Alaska",
+        "country_code": "US"
     },
     "3": {
         "iso_3166_2": "AS",
-        "name": "American Samoa"
+        "name": "American Samoa",
+        "country_code": "US"
     },
     "4": {
         "iso_3166_2": "AZ",
-        "name": "Arizona"
+        "name": "Arizona",
+        "country_code": "US"
     },
     "5": {
         "iso_3166_2": "AR",
-        "name": "Arkansas"
+        "name": "Arkansas",
+        "country_code": "US"
     },
     "6": {
         "iso_3166_2": "CA",
-        "name": "California"
+        "name": "California",
+        "country_code": "US"
     },
     "7": {
         "iso_3166_2": "CO",
-        "name": "Colorado"
+        "name": "Colorado",
+        "country_code": "US"
     },
     "8": {
         "iso_3166_2": "CT",
-        "name": "Connecticut"
+        "name": "Connecticut",
+        "country_code": "US"
     },
     "9": {
         "iso_3166_2": "DE",
-        "name": "Delaware"
+        "name": "Delaware",
+        "country_code": "US"
     },
     "10": {
         "iso_3166_2": "DC",
-        "name": "District of Columbia"
+        "name": "District of Columbia",
+        "country_code": "US"
     },
     "11": {
         "iso_3166_2": "FM",
-        "name": "Federated States of Micronesia"
+        "name": "Federated States of Micronesia",
+        "country_code": "US"
     },
     "12": {
         "iso_3166_2": "FL",
-        "name": "Florida"
+        "name": "Florida",
+        "country_code": "US"
     },
     "13": {
         "iso_3166_2": "GA",
-        "name": "Georgia"
+        "name": "Georgia",
+        "country_code": "US"
     },
     "14": {
         "iso_3166_2": "GU",
-        "name": "Guam"
+        "name": "Guam",
+        "country_code": "US"
     },
     "15": {
         "iso_3166_2": "HI",
-        "name": "Hawaii"
+        "name": "Hawaii",
+        "country_code": "US"
     },
     "16": {
         "iso_3166_2": "ID",
-        "name": "Idaho"
+        "name": "Idaho",
+        "country_code": "US"
     },
     "17": {
         "iso_3166_2": "IL",
-        "name": "Illinois"
+        "name": "Illinois",
+        "country_code": "US"
     },
     "18": {
         "iso_3166_2": "IN",
-        "name": "Indiana"
+        "name": "Indiana",
+        "country_code": "US"
     },
     "19": {
         "iso_3166_2": "IA",
-        "name": "Iowa"
+        "name": "Iowa",
+        "country_code": "US"
     },
     "20": {
         "iso_3166_2": "KS",
-        "name": "Kansas"
+        "name": "Kansas",
+        "country_code": "US"
     },
     "21": {
         "iso_3166_2": "KY",
-        "name": "Kentucky"
+        "name": "Kentucky",
+        "country_code": "US"
     },
     "22": {
         "iso_3166_2": "LA",
-        "name": "Louisiana"
+        "name": "Louisiana",
+        "country_code": "US"
     },
     "23": {
         "iso_3166_2": "ME",
-        "name": "Maine"
+        "name": "Maine",
+        "country_code": "US"
     },
     "24": {
         "iso_3166_2": "MH",
-        "name": "Marshall Islands"
+        "name": "Marshall Islands",
+        "country_code": "US"
     },
     "25": {
         "iso_3166_2": "MD",
-        "name": "Maryland"
+        "name": "Maryland",
+        "country_code": "US"
     },
     "26": {
         "iso_3166_2": "MA",
-        "name": "Massachusetts"
+        "name": "Massachusetts",
+        "country_code": "US"
     },
     "27": {
         "iso_3166_2": "MI",
-        "name": "Michigan"
+        "name": "Michigan",
+        "country_code": "US"
     },
     "28": {
         "iso_3166_2": "MN",
-        "name": "Minnesota"
+        "name": "Minnesota",
+        "country_code": "US"
     },
     "29": {
         "iso_3166_2": "MS",
-        "name": "Mississippi"
+        "name": "Mississippi",
+        "country_code": "US"
     },
     "30": {
         "iso_3166_2": "MO",
-        "name": "Missouri"
+        "name": "Missouri",
+        "country_code": "US"
     },
     "31": {
         "iso_3166_2": "MT",
-        "name": "Montana"
+        "name": "Montana",
+        "country_code": "US"
     },
     "32": {
         "iso_3166_2": "NE",
-        "name": "Nebraska"
+        "name": "Nebraska",
+        "country_code": "US"
     },
     "33": {
         "iso_3166_2": "NV",
-        "name": "Nevada"
+        "name": "Nevada",
+        "country_code": "US"
     },
     "34": {
         "iso_3166_2": "NH",
-        "name": "New Hampshire"
+        "name": "New Hampshire",
+        "country_code": "US"
     },
     "35": {
         "iso_3166_2": "NJ",
-        "name": "New Jersey"
+        "name": "New Jersey",
+        "country_code": "US"
     },
     "36": {
         "iso_3166_2": "NM",
-        "name": "New Mexico"
+        "name": "New Mexico",
+        "country_code": "US"
     },
     "37": {
         "iso_3166_2": "NY",
-        "name": "New York"
+        "name": "New York",
+        "country_code": "US"
     },
     "38": {
         "iso_3166_2": "NC",
-        "name": "North Carolina"
+        "name": "North Carolina",
+        "country_code": "US"
     },
     "39": {
         "iso_3166_2": "ND",
-        "name": "North Dakota"
+        "name": "North Dakota",
+        "country_code": "US"
     },
     "40": {
         "iso_3166_2": "MP",
-        "name": "Northern Mariana Islands"
+        "name": "Northern Mariana Islands",
+        "country_code": "US"
     },
     "41": {
         "iso_3166_2": "OH",
-        "name": "Ohio"
+        "name": "Ohio",
+        "country_code": "US"
     },
     "42": {
         "iso_3166_2": "OK",
-        "name": "Oklahoma"
+        "name": "Oklahoma",
+        "country_code": "US"
     },
     "43": {
         "iso_3166_2": "OR",
-        "name": "Oregon"
+        "name": "Oregon",
+        "country_code": "US"
     },
     "44": {
         "iso_3166_2": "PW",
-        "name": "Palau"
+        "name": "Palau",
+        "country_code": "US"
     },
     "45": {
         "iso_3166_2": "PA",
-        "name": "Pennsylvania"
+        "name": "Pennsylvania",
+        "country_code": "US"
     },
     "46": {
         "iso_3166_2": "PR",
-        "name": "Puerto Rico"
+        "name": "Puerto Rico",
+        "country_code": "US"
     },
     "47": {
         "iso_3166_2": "RI",
-        "name": "Rhode Island"
+        "name": "Rhode Island",
+        "country_code": "US"
     },
     "48": {
         "iso_3166_2": "SC",
-        "name": "South Carolina"
+        "name": "South Carolina",
+        "country_code": "US"
     },
     "49": {
         "iso_3166_2": "SD",
-        "name": "South Dakota"
+        "name": "South Dakota",
+        "country_code": "US"
     },
     "50": {
         "iso_3166_2": "TN",
-        "name": "Tennessee"
+        "name": "Tennessee",
+        "country_code": "US"
     },
     "51": {
         "iso_3166_2": "TX",
-        "name": "Texas"
+        "name": "Texas",
+        "country_code": "US"
     },
     "52": {
         "iso_3166_2": "UT",
-        "name": "Utah"
+        "name": "Utah",
+        "country_code": "US"
     },
     "53": {
         "iso_3166_2": "VT",
-        "name": "Vermont"
+        "name": "Vermont",
+        "country_code": "US"
     },
     "54": {
         "iso_3166_2": "VI",
-        "name": "Virgin Islands"
+        "name": "Virgin Islands",
+        "country_code": "US"
     },
     "55": {
         "iso_3166_2": "VA",
-        "name": "Virginia"
+        "name": "Virginia",
+        "country_code": "US"
     },
     "56": {
         "iso_3166_2": "WA",
-        "name": "Washington"
+        "name": "Washington",
+        "country_code": "US"
     },
     "57": {
         "iso_3166_2": "WV",
-        "name": "West Virginia"
+        "name": "West Virginia",
+        "country_code": "US"
     },
     "58": {
         "iso_3166_2": "WI",
-        "name": "Wisconsin"
+        "name": "Wisconsin",
+        "country_code": "US"
     },
     "59": {
         "iso_3166_2": "WY",
-        "name": "Wyoming"
+        "name": "Wyoming",
+        "country_code": "US"
     },
     "60": {
         "iso_3166_2": "AE",
-        "name": "Armed Forces Europe, the Middle East, and Canada"
+        "name": "Armed Forces Europe, the Middle East, and Canada",
+        "country_code": "US"
     },
     "61": {
         "iso_3166_2": "AP",
-        "name": "Armed Forces Pacific"
+        "name": "Armed Forces Pacific",
+        "country_code": "US"
     },
     "62": {
         "iso_3166_2": "AA",
-        "name": "Armed Forces Americas (except Canada)"
+        "name": "Armed Forces Americas (except Canada)",
+        "country_code": "US"
     }
 }

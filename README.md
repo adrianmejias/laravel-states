@@ -1,6 +1,8 @@
 # Laravel States
 
-Laravel States is a bundle for Laravel, providing abbreviation and name for all USA States.
+Laravel States is a bundle for Laravel, providing abbreviation, name and country code for US states.
+
+Currently, I only have US states but additional states from other countries could be added using the country code column.
 
 **Please not that this is for Laravel 5 only.**
 
@@ -8,20 +10,20 @@ Laravel States is a bundle for Laravel, providing abbreviation and name for all 
 
 Add `adrianmejias/laravel-states` to `composer.json`.
 
-    "adrianmejias/laravel-states": "dev-master"
+    "adrianmejias/laravel-states": "~1.0"
     
 Run `composer update` to pull down the latest version of Country List.
 
 Edit `app/config/app.php` and add the `provider` and `filter`
 
     'providers' => [
-        'AdrianMejias\States\StatesServiceProvider',
+        AdrianMejias\States\StatesServiceProvider::class,
     ]
 
 Now add the alias.
 
     'aliases' => [
-        'States' => 'AdrianMejias\States\StatesFacade',
+        'States' => AdrianMejias\States\StatesFacade::class,
     ]
     
 
@@ -34,15 +36,30 @@ You can start by publishing the configuration. This is an optional step, it cont
 Next generate the migration file:
 
     $ php artisan states:migration
-    
+    $ composer dump-autoload
+
 It will generate the `<timestamp>_setup_states_table.php` migration and the `StatesSeeder.php` seeder. To make sure the data is seeded insert the following code in the `seeds/DatabaseSeeder.php`
 
-    // Seed the states
-    $this->call('SatesSeeder');
-    $this->command->info('Seeded the states!'); 
+    $this->call(StatesSeeder::class);
 
 You may now run it with the artisan migrate command:
 
     $ php artisan migrate --seed
     
-After running this command the filled states table will be available
+
+After running this command the filled states table will be available.
+
+## Example
+
+Example blade formatting:
+
+    @foreach(States::whereCountryCode('US')->get() as $state)
+        {{ $state->name }} {{ $state->country_code }}<br>
+    @endforeach
+
+Should result in:
+
+    Alabama<br>
+    Arkansas<br>
+    Arizona<br>
+    ...

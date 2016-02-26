@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
  * States
  *
  */
-class States extends Model {
+class States extends Model
+{
 
     /**
      * @var string
@@ -29,7 +30,7 @@ class States extends Model {
      */
     public function __construct()
     {
-       $this->table = \Config::get('states.table_name');
+        $this->table = \Config::get('states.table_name');
     }
 
     /**
@@ -40,7 +41,7 @@ class States extends Model {
     protected function getStates()
     {
         //Get the states from the JSON file
-        if (sizeof($this->states) == 0){
+        if (sizeof($this->states) == 0) {
             $this->states = json_decode(file_get_contents(__DIR__ . '/Models/states.json'), true);
         }
 
@@ -50,7 +51,7 @@ class States extends Model {
 
     /**
      * Returns one state
-     * 
+     *
      * @param string $id The state id
      *
      * @return array
@@ -63,9 +64,9 @@ class States extends Model {
 
     /**
      * Returns a list of states
-     * 
+     *
      * @param string sort
-     * 
+     *
      * @return array
      */
     public function getList($sort = null)
@@ -74,22 +75,23 @@ class States extends Model {
         $states = $this->getStates();
         
         //Sorting
-        $validSorts = array(
+        $validSorts = [
             'iso_3166_2',
             'name',
-        );
+            'country_code',
+        ];
         
-        if (!is_null($sort) && in_array($sort, $validSorts)){
-            uasort($states, function($a, $b) use ($sort) {
-                if (!isset($a[$sort]) && !isset($b[$sort])){
+        if (! is_null($sort) && in_array($sort, $validSorts)) {
+            uasort($states, function ($a, $b) use ($sort) {
+                if (!isset($a[$sort]) && !isset($b[$sort])) {
                     return 0;
-                } elseif (!isset($a[$sort])){
+                } elseif (!isset($a[$sort])) {
                     return -1;
-                } elseif (!isset($b[$sort])){
+                } elseif (!isset($b[$sort])) {
                     return 1;
                 } else {
                     return strcasecmp($a[$sort], $b[$sort]);
-                } 
+                }
             });
         }
         
