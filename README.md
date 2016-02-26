@@ -59,7 +59,7 @@ Example blade formatting:
 
 Should result in:
 
-    Alabama<br>
-    Arkansas<br>
-    Arizona<br>
+    Alabama US<br>
+    Arkansas US<br>
+    Arizona US<br>
     ...
