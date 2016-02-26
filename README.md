@@ -10,7 +10,7 @@ Currently, I only have US states but additional states from other countries coul
 
 Add `adrianmejias/laravel-states` to `composer.json`.
 
-    "adrianmejias/laravel-states": "dev-master"
+    "adrianmejias/laravel-states": "~1.0"
     
 Run `composer update` to pull down the latest version of Country List.
 
@@ -39,9 +39,7 @@ Next generate the migration file:
     
 It will generate the `<timestamp>_setup_states_table.php` migration and the `StatesSeeder.php` seeder. To make sure the data is seeded insert the following code in the `seeds/DatabaseSeeder.php`
 
-    // Seed the states
-    $this->call('StatesSeeder');
-    $this->command->info('Seeded the states!'); 
+    $this->call(StatesSeeder::class);
 
 You may now run it with the artisan migrate command:
 
