@@ -64,8 +64,7 @@ class StatesServiceProvider extends ServiceProvider
      */
     protected function registerCommands()
     {
-        $this->app['command.states.migration'] = $this->app->share(function ($app) {
-        
+        $this->app->singletone('command.states.migration', function ($app) {
             return new MigrationCommand($app);
         });
 
