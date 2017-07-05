@@ -308,5 +308,71 @@
         "iso_3166_2": "AA",
         "name": "Armed Forces Americas (except Canada)",
         "country_code": "US"
+    },
+    "63": {
+        "iso_3166_2": "AB",
+        "name": "Alberta",
+        "country_code": "CA"
+    },
+    "64": {
+        "iso_3166_2": "BC",
+        "name": "British Columbia",
+        "country_code": "CA"
+    },
+    "65": {
+        "iso_3166_2": "MB",
+        "name": "Manitoba",
+        "country_code": "CA"
+    },
+    "66": {
+        "iso_3166_2": "NB",
+        "name": "New Brunswick",
+        "country_code": "CA"
+    },
+    "67": {
+        "iso_3166_2": "NL",
+        "name": "Newfoundland and Labrador",
+        "country_code": "CA"
+    },
+    "68": {
+        "iso_3166_2": "NT",
+        "name": "Northwest Territories",
+        "country_code": "CA"
+    },
+    "69": {
+        "iso_3166_2": "NS",
+        "name": "Nova Scotia",
+        "country_code": "CA"
+    },
+    "70": {
+        "iso_3166_2": "NU",
+        "name": "Nunavut",
+        "country_code": "CA"
+    },
+    "71": {
+        "iso_3166_2": "ON",
+        "name": "Ontario",
+        "country_code": "CA"
+    },
+    "72": {
+        "iso_3166_2": "PE",
+        "name": "Prince Edward Island",
+        "country_code": "CA"
+    },
+    "73": {
+        "iso_3166_2": "QC",
+        "name": "Quebec",
+        "country_code": "CA"
+    },
+    "74": {
+        "iso_3166_2": "SK",
+        "name": "Saskatchewan",
+        "country_code": "CA"
+    },
+    "75": {
+        "iso_3166_2": "YT",
+        "name": "Yukon",
+        "country_code": "CA"
     }
+
 }
