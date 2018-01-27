@@ -15,7 +15,7 @@ class States extends Model
      * @var string
      * Path to the directory containing states data.
      */
-    protected $states;
+    protected $states = [];
 
     /**
      * @var string
