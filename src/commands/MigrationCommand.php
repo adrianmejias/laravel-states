@@ -44,7 +44,7 @@ class MigrationCommand extends Command
     {
         $this->line('');
         $this->info('The migration process will create a migration file and a seeder for the states list');
-        
+
         $this->line('');
 
         if ($this->confirm("Proceed with the migration creation? [Yes|no]")) {
@@ -53,11 +53,11 @@ class MigrationCommand extends Command
             $this->info("Creating migration and seeder...");
             if ($this->createMigration('states')) {
                 $this->line('');
-                
+
                 $this->call('optimize', []);
-                
+
                 $this->line('');
-                
+
                 $this->info("Migration successfully created!");
             } else {
                 $this->error(
@@ -101,11 +101,11 @@ class MigrationCommand extends Command
         foreach ($migrationFiles as $migrationFile => $outputFile) {
             if (sizeof(glob($migrationFile)) == 0) {
                 $migrationFile = str_replace('*', date('Y_m_d_His', strtotime('+' . $seconds . ' seconds')), $migrationFile);
-                
+
                 $fs = fopen($migrationFile, 'x');
                 if ($fs) {
                     $output = "<?php\n\n" .$app['view']->make($outputFile)->with('table', 'states')->render();
-                    
+
                     fwrite($fs, $output);
                     fclose($fs);
                 } else {
@@ -115,12 +115,16 @@ class MigrationCommand extends Command
                 $seconds++;
             }
         }
-        
-        
+
+
         //Create the seeder
-        $seeder_file = $this->laravel->path."/../database/seeds/StatesSeeder.php";
+        $seeder_path = $this->laravel->path."/../database/seeds/";
+        if (!file_exists($seeder_path)) {
+            $seeder_path = $this->laravel->path . '/../database/seeders/';
+        }
+        $seeder_file = $seeder_path . 'StatesSeeder.php';
         $output = "<?php\n\n" .$app['view']->make('states::generators.seeder')->render();
-        
+
         if (!file_exists($seeder_file)) {
             $fs = fopen($seeder_file, 'x');
             if ($fs) {
@@ -130,7 +134,7 @@ class MigrationCommand extends Command
                 return false;
             }
         }
-        
+
         return true;
     }
 }
